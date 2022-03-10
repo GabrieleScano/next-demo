@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function HomePage() {
@@ -12,7 +13,7 @@ export default function HomePage() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Go to <a href="/about">About</a>
+          Go to <Link href="/about">About</Link>
         </h1>
 
         <p className={styles.description}>
