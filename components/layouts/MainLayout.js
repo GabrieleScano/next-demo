@@ -1,6 +1,5 @@
 
 import Head from 'next/head'
-import Link from 'next/link'
 import { NavBar } from '../NavBar'
 import styles from '../../styles/MainLayout.module.css'
 
