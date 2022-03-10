@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import { NavBar } from '../components/NavBar'
 import styles from '../styles/Home.module.css'
 
 export default function HomePage() {
@@ -10,6 +11,9 @@ export default function HomePage() {
         <meta name="description" content="Home Page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <NavBar />
+      <h1>HOME</h1>
 
       <main className={styles.main}>
         <h1 className={styles.title}>

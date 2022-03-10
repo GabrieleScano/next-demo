@@ -2,18 +2,18 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { NavBar } from '../components/NavBar'
 
-import styles from '../styles/About.module.css'
+import styles from '../styles/Home.module.css'
 
-export default function AboutPage() {
+export default function ContactPage() {
     return (
         <div className={styles.container}>
             <Head>
-                <title>About</title>
+                <title>Contact</title>
                 <meta name="description" content="About Page" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <NavBar />
-            <h1>ABOUT</h1>
+            <h1>Contact</h1>
 
 
             <main className={styles.main}>
