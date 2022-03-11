@@ -1,6 +1,7 @@
-import Link from "next/link"
-import { ActiveLink } from "./ActiveLink"
-import styles from "./NavBar.module.css"
+import { FC } from 'react'
+
+import { ActiveLink } from './ActiveLink'
+import styles from './NavBar.module.css'
 
 const menuItems = [
     {
@@ -21,7 +22,7 @@ const menuItems = [
     },
 ]
 
-export const NavBar = () => {
+export const NavBar: FC = () => {
 
     return (
         <nav className={styles['menu-container']}>
