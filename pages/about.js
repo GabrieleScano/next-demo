@@ -25,7 +25,5 @@ AboutPage.getLayout = function getLayout(page) {
                 {page}
             </DarkLayout>
         </MainLayout>
-
     )
-
 }
